@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mistunori-morita/typescript-dev/issues"
   },
-  "homepage": "https://github.com/mistunori-morita/typescript-dev#readme"
+  "homepage": "https://github.com/mistunori-morita/typescript-dev#readme",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  }
 }
