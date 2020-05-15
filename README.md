@@ -18,3 +18,7 @@ npm uninstall --save-dev ts-node
 ## 再インストール
 
 npm install --save-dev ts-node@8.5.4
+
+## echo コマンド
+
+`'export {};' > src/number-string.ts` みたいにやるとすぐ `eport込みで作れる`
