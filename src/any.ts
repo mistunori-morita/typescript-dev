@@ -1,24 +1,22 @@
 import axios from "axios";
 export {};
 
-let url: string =
-  "http://udemy-utils.herokuapp.com/api/v1/articles?token=token123";
+let url: string = "https://pokeapi.co/api/v2/pokemon/";
 
 axios.get(url).then((res) => {
   interface Article {
-    id: number;
-    title: string;
-    description: string;
+    name: string;
+    url: string;
   }
 
   let data: Article[] = res.data;
-  data = [
-    {
-      id: 1,
-      title: "title",
-      description: "des",
-    },
-  ];
+  // data = [
+  //   {
+  //     id: 1,
+  //     title: "title",
+  //     description: "des",
+  //   },
+  // ];
 
   console.log(data);
 });
